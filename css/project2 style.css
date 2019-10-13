@@ -1,0 +1,99 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+section{
+  background-image: url('/images/bg1.png');
+  height: 100vh;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+header{
+  width:95%;
+  margin-left: auto;
+  margin-right: auto;
+  font-family: 'Roboto', sans-serif;
+  margin-top: 20px;
+}
+.logo-part{
+  width:20%;
+  float:left;
+  margin-left: 150px;
+  margin-top: 40px;
+  font-size: 15px;
+  font-weight: bold;
+}
+nav{
+  width:55%;
+  float:right;
+  text-align: center;
+  margin-top: 40px;
+}
+nav ul{
+
+}
+nav ul li{
+  display: inline-block;
+  list-style: none;
+  padding-left: 5px;
+}
+nav ul li a{
+  text-decoration: none;
+  padding: 10px 20px;
+  font-size: 20px;
+  margin-left: 7px;
+  font-weight: bold;
+  color:black;
+}
+nav ul li a:hover{
+  color:#0da3d1;
+}
+#details{
+width:30%;
+padding-top:240px;
+padding-left: 150px;
+}
+#details h4{
+    font-weight: normal;
+    font-size: 20px;
+    font-family: 'Roboto', sans-serif;
+}
+#details h1{
+   font-size: 45px;
+   font-family: 'Muli', sans-serif;
+   text-transform: uppercase;
+}
+#details h2{
+  font-size: 40px;
+  font-family: 'Muli', sans-serif;
+  text-transform: uppercase;
+  color: #3FA9F5;
+}
+#details p{
+  padding-top: 20px;
+  font-size: 15px;
+  font-weight: 520;
+  font-family: 'Assistant', sans-serif;
+  text-align: justify;
+  line-height:1.5 ;
+}
+button{
+  margin-left: 150px;
+  margin-top: 30px;
+  font-size: 17px;
+  border-radius: 20px;
+  padding: 3px 10px;
+}
+  .btn {
+  border: 2px solid black;
+  background-color: white;
+  color: black;
+  padding: 7px 30px;
+  font-size: 16px;
+  cursor: pointer;
+}
+.btn:hover {
+  background-color:#3FA9F5 ;
+  color: white;
+  border:1px solid white;
+}
